@@ -36,3 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/codeStyles/Project.xml
+/.idea/codeStyles/vcs.xml
+/.idea/codeStyles/amplicode-jpa.xml
+/.idea/codeStyles/misc.xml
+/.idea/codeStyles/encodings.xml
