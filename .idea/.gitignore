@@ -1,3 +1,15 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+!/dbnavigator.xml
+!/encodings.xml
+!/misc.xml
+
+!/vcs.xml
+!/amplicode-jpa.xml
+
+!/compiler.xml
+
+!/dbnavigator.xml
+
+!/encodings.xml

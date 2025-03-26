@@ -41,4 +41,4 @@ build/
 /.idea/codeStyles/vcs.xml
 /.idea/codeStyles/amplicode-jpa.xml
 /.idea/codeStyles/misc.xml
-/.idea/codeStyles/encodings.xml
+/.idea/codeStyles/encodings.xml!/.idea/amplicode-jpa.xml
