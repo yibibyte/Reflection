@@ -12,9 +12,11 @@ public class ReflectionDemo {
         System.out.println("Simple name: " + personClass.getSimpleName());
         System.out.println("Modifiers: " + Modifier.toString(personClass.getModifiers()));
         System.out.println("Superclass: " + personClass.getSuperclass().getName());
+        System.out.println("descriptorString: " + personClass.descriptorString());
 
         // Работа с аннотациями класса
         MyClassAnnotation classAnnotation = personClass.getAnnotation(MyClassAnnotation.class);
+
         System.out.println("\n=== Class Annotations ===");
         System.out.println("Author: " + classAnnotation.author());
         System.out.println("Date: " + classAnnotation.date());
@@ -122,6 +124,3 @@ public class ReflectionDemo {
     }
 }
 
-interface Greeter {
-    String greet(String name);
-}
